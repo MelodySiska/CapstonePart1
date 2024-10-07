@@ -1,4 +1,4 @@
-Capstone Project: Analysis of Left Without Being Seen (LWBS) % and Crowding in a Pediatric Emergency Department
+Capstone Project: Analysis of LWBS % and Crowding in a Pediatric Emergency Department
 Project Overview
 This project aims to analyze the factors that contribute to higher Left Without Being Seen (LWBS) rates in a pediatric emergency department. Specifically, the analysis focuses on the impact of weekly patient arrivals and crowding, measured by the number of hours where the Pediatric Emergency Department Occupancy Scale (PEDOCS) exceeds 140. Through various techniques such as regression analysis, correlation heatmaps, and neural network models (LSTM), this project seeks to uncover key drivers of LWBS and provide actionable insights for managing patient flow and improving care quality.
 
