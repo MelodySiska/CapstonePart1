@@ -1,27 +1,26 @@
 **Capstone Project: Analysis of LWBS % and Crowding in a Pediatric Emergency Department**  
 
-Project Overview
+<B>Project Overview</B><BR>
 This project aims to analyze the factors that contribute to higher Left Without Being Seen (LWBS) rates in a pediatric emergency department. Specifically, the analysis focuses on the impact of weekly patient arrivals and crowding, measured by the number of hours where the Pediatric Emergency Department Occupancy Scale (PEDOCS) exceeds 140. Through various techniques such as regression analysis, correlation heatmaps, and neural network models (LSTM), this project seeks to uncover key drivers of LWBS and provide actionable insights for managing patient flow and improving care quality.
 
-Research Question
+<B>Research Question</B><BR>
 The main research question guiding this analysis is: How do weekly arrivals and crowding, as measured by PEDOCS > 140, influence LWBS rates in the emergency department?
 
-Goals:
+<B>Goals:</B><BR>
 To assess the correlation between crowding and LWBS.
 To predict future LWBS rates based on historical data using regression and machine learning techniques.
 To evaluate the effectiveness of different intervention strategies on reducing LWBS rates.
 Data Sources
 The dataset used in this analysis is based on historical records from a pediatric emergency department, specifically focusing on:
 
-Weekly Arrivals: The number of patients arriving at the ED each week.
+<B>Weekly Arrivals: The number of patients arriving at the ED each week.</B><BR>
 LWBS %: The percentage of patients who left the ED without being seen each week.
 '# Hrs > 140: The number of hours in a week where PEDOCS exceeded 140, indicating high levels of crowding.
 Other Variables: Additional variables such as sedation count, STS activation count, and usage of the overflow area ("Team5").
 Dataset Structure:
-Week Begin	# Hrs > 140	Weekly Arrivals	LWBS %	Sedation Count	STS Activation Count	Team5 Usage
-2023-08-13	0	976	5.53%	41	69	5
-...	...	...	...	...	...	...
-Techniques and Models Used
+Week Begin	# Hrs > 140	Weekly Arrivals	LWBS %	Sedation Count	STS Activation Count	Team5 Usage<BR>
+<BR>
+<B>Techniques and Models Used</B><BR>
 1. Exploratory Data Analysis (EDA):
 Line Graphs: Visualized trends in weekly arrivals, LWBS %, and # Hrs > 140 to explore their relationships over time.
 Scatter Plots: Investigated pairwise relationships between weekly arrivals, crowding, and LWBS %.
@@ -34,7 +33,8 @@ LSTM Model: Used Long Short-Term Memory (LSTM) networks to predict future LWBS %
 Model Performance: Compared LSTM results with traditional regression approaches using metrics such as Mean Squared Error (MSE).
 4. Intervention Effectiveness:
 Pre- and Post-Intervention Analysis: Compared LWBS % and crowding before and after interventions aimed at reducing patient flow issues and managing crowding.
-Key Findings
+<BR>
+<B>Key Findings</B><BR>
 Crowding is a Key Driver of LWBS:
 
 The regression models demonstrated that the number of hours where PEDOCS exceeded 140 (# Hrs > 140) was the most significant predictor of LWBS %. Each additional hour of crowding resulted in a measurable increase in the percentage of patients leaving without being seen.
